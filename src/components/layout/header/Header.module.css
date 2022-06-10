@@ -1,0 +1,49 @@
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #5277A3;
+    padding: 1.2rem 3.4rem .6rem;
+    width: 100%;
+}
+
+.logo {
+    width: 30px;
+    height: 30px;
+    background: #fff;
+    border-radius: 6px;
+}
+
+.logoWrapper {
+    width: 16%;
+}
+
+.inputWrapper {
+    margin-left: 16px;
+    width: calc(84% - 16px);
+    position: relative;
+    border-radius: 30px;
+    background-color: #2c4a76;
+}
+
+.inputWrapper svg {
+    fill: #607d9f !important;
+    position: absolute;
+    left: 44%;
+    top: 7px;
+}
+
+.inputWrapper > input {
+    width: 97%;
+    background-color: transparent;
+    outline: none;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    border: none;
+}
+
+.inputWrapper > input::placeholder {
+    color: #607d9f;
+    
+}
